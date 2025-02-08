@@ -8,10 +8,8 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class BeanConfig {
 
-    @Bean
-    @Scope("singleton")
-//    @Scope("request")
-//    @Scope("session")
+    @Bean(initMethod = "initialBeanMethod", destroyMethod = "destroyBeanMethod")
+    @Scope("singleton") // request session
     public BeanDto beanDto() {
         return BeanDto
                 .builder()

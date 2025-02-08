@@ -19,7 +19,7 @@ public class BeanDto {
     //Başlangıç
     public void initialBeanMethod(){
         log.info("BeanDto initialBeanMethod bean başlamadan önce çalışır.");
-        System.out.println("benan başlamadan önce ben varım");
+        System.out.println("bean başlamadan önce ben varım");
 
     }
 
