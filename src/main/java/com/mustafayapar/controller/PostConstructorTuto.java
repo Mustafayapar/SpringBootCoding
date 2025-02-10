@@ -10,16 +10,16 @@ import java.util.logging.Logger;
 @Controller
 public class PostConstructorTuto {
 
-    @Autowired
-    Logger LOG;
+//    @Autowired
+//    Logger LOG;
 
     //    public PostConstructorTuto() {
 //        LOG.info("Log info");
 //    }
-    @PostConstruct
-    public void init(){
-        LOG.info("Log info");
-    }
+//    @PostConstruct
+//    public void init(){
+//        LOG.info("Log info");
+//    }
     public static void main(String[] args) {
         BeanController beanController = new BeanController();
         System.out.println(beanController);
