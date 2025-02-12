@@ -1,27 +1,307 @@
-2025-02-10T20:37:45.595+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T20:37:45.606+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T20:37:45.669+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-10T20:37:45.669+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-10T20:37:47.619+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T20:37:47.621+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T20:37:47.645+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
-2025-02-10T20:37:47.661+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T20:37:47.662+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T20:37:47.673+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
-2025-02-10T20:37:48.371+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T20:37:48.384+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T20:37:48.384+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T20:37:48.427+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T20:37:48.427+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2757 ms
-2025-02-10T20:37:48.699+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T20:37:48.791+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-10T20:37:48.828+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T20:37:49.079+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T20:37:49.105+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-10T20:37:49.256+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a43b12
-2025-02-10T20:37:49.258+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-10T20:37:49.325+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T20:37:49.351+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-02-12T10:18:15.123+03:00  WARN 17236 --- [SpringBootCoding] [HikariPool-11 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=8h38m34s21ms729µs500ns).
+2025-02-12T10:56:45.503+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-12T10:56:45.608+03:00  INFO 17236 --- [SpringBootCoding] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T10:56:45.639+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T10:56:45.715+03:00  INFO 17236 --- [SpringBootCoding] [Thread-43] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T10:56:45.719+03:00  INFO 17236 --- [SpringBootCoding] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T10:56:45.758+03:00  INFO 17236 --- [SpringBootCoding] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2025-02-12T10:56:45.776+03:00  INFO 17236 --- [SpringBootCoding] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2025-02-12T10:56:46.350+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T10:56:46.352+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T10:56:47.753+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T10:56:47.755+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T10:56:47.769+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2025-02-12T10:56:47.776+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T10:56:47.776+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T10:56:47.786+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-02-12T10:56:48.608+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T10:56:48.613+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T10:56:48.613+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T10:56:48.678+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T10:56:48.678+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2309 ms
+2025-02-12T10:56:49.077+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T10:56:49.083+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T10:56:49.122+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T10:56:49.125+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2025-02-12T10:56:49.134+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18959e5d
+2025-02-12T10:56:49.136+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2025-02-12T10:56:49.145+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T10:56:49.145+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T10:56:49.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T10:56:49.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T10:56:49.240+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T10:56:49.526+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T10:56:49.989+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T10:56:51.149+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T10:56:51.191+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T10:56:51.212+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T10:56:51.279+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T10:56:51.296+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 5.127 seconds (process running for 137953.366)
+2025-02-12T10:56:51.305+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T10:56:56.688+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-12T10:56:56.689+03:00  INFO 17236 --- [SpringBootCoding] [Thread-47] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T10:56:56.701+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T10:56:56.703+03:00  INFO 17236 --- [SpringBootCoding] [Thread-47] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T10:56:56.703+03:00  INFO 17236 --- [SpringBootCoding] [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T10:56:56.704+03:00  INFO 17236 --- [SpringBootCoding] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2025-02-12T10:56:56.705+03:00  INFO 17236 --- [SpringBootCoding] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2025-02-12T10:56:56.774+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T10:56:56.774+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T10:56:57.049+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T10:56:57.049+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T10:56:57.051+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2025-02-12T10:56:57.054+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T10:56:57.054+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T10:56:57.056+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-12T10:56:57.178+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T10:56:57.179+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T10:56:57.179+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T10:56:57.197+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T10:56:57.197+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 422 ms
+2025-02-12T10:56:57.304+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T10:56:57.308+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T10:56:57.317+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T10:56:57.318+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2025-02-12T10:56:57.322+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72538db
+2025-02-12T10:56:57.323+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2025-02-12T10:56:57.325+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T10:56:57.325+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T10:56:57.351+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T10:56:57.351+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T10:56:57.365+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T10:56:57.427+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T10:56:57.615+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T10:56:57.947+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T10:56:57.964+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T10:56:57.969+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T10:56:57.997+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T10:56:58.006+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.251 seconds (process running for 137960.075)
+2025-02-12T10:56:58.007+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T14:03:49.374+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-12T14:03:49.377+03:00  INFO 17236 --- [SpringBootCoding] [Thread-51] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T14:03:49.392+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T14:03:49.406+03:00  INFO 17236 --- [SpringBootCoding] [Thread-51] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T14:03:49.407+03:00  INFO 17236 --- [SpringBootCoding] [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:03:49.410+03:00  INFO 17236 --- [SpringBootCoding] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2025-02-12T14:03:49.413+03:00  INFO 17236 --- [SpringBootCoding] [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2025-02-12T14:03:49.520+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T14:03:49.520+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T14:03:50.059+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:03:50.059+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T14:03:50.062+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2025-02-12T14:03:50.066+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:03:50.066+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T14:03:50.068+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-12T14:03:50.279+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T14:03:50.283+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T14:03:50.283+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T14:03:50.325+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T14:03:50.325+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2025-02-12T14:03:50.463+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T14:03:50.466+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T14:03:50.479+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T14:03:50.480+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2025-02-12T14:03:50.484+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cba9f0c
+2025-02-12T14:03:50.484+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2025-02-12T14:03:50.486+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T14:03:50.487+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T14:03:50.513+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T14:03:50.513+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:03:50.536+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T14:03:50.637+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T14:03:50.881+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T14:03:51.316+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T14:03:51.334+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T14:03:51.341+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T14:03:51.372+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T14:03:51.379+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.901 seconds (process running for 149175.206)
+2025-02-12T14:03:51.381+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T14:03:54.804+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-12T14:03:54.805+03:00  INFO 17236 --- [SpringBootCoding] [Thread-55] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T14:03:54.816+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T14:03:54.818+03:00  INFO 17236 --- [SpringBootCoding] [Thread-55] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T14:03:54.819+03:00  INFO 17236 --- [SpringBootCoding] [Thread-55] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:03:54.820+03:00  INFO 17236 --- [SpringBootCoding] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2025-02-12T14:03:54.821+03:00  INFO 17236 --- [SpringBootCoding] [Thread-55] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2025-02-12T14:03:54.901+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T14:03:54.902+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T14:03:55.310+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:03:55.310+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T14:03:55.313+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2025-02-12T14:03:55.319+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:03:55.319+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T14:03:55.322+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-12T14:03:55.444+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T14:03:55.444+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T14:03:55.444+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T14:03:55.461+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T14:03:55.461+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2025-02-12T14:03:55.607+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T14:03:55.610+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T14:03:55.619+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T14:03:55.620+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2025-02-12T14:03:55.625+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70e897e7
+2025-02-12T14:03:55.625+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2025-02-12T14:03:55.626+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T14:03:55.626+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T14:03:55.642+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T14:03:55.642+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:03:55.654+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T14:03:55.714+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T14:03:55.876+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T14:03:56.178+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T14:03:56.192+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T14:03:56.197+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T14:03:56.220+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T14:03:56.226+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.354 seconds (process running for 149180.052)
+2025-02-12T14:03:56.227+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T14:04:08.235+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12T14:04:08.236+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-12T14:04:08.252+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2025-02-12T14:04:09.940+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-12T14:04:09.942+03:00  INFO 17236 --- [SpringBootCoding] [Thread-59] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T14:04:09.955+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T14:04:09.957+03:00  INFO 17236 --- [SpringBootCoding] [Thread-59] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T14:04:09.958+03:00  INFO 17236 --- [SpringBootCoding] [Thread-59] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:04:09.958+03:00  INFO 17236 --- [SpringBootCoding] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2025-02-12T14:04:09.959+03:00  INFO 17236 --- [SpringBootCoding] [Thread-59] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2025-02-12T14:04:10.026+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T14:04:10.026+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T14:04:10.395+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:04:10.395+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T14:04:10.398+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2025-02-12T14:04:10.402+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:04:10.402+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T14:04:10.404+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-12T14:04:10.564+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T14:04:10.565+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T14:04:10.565+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T14:04:10.591+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T14:04:10.591+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 563 ms
+2025-02-12T14:04:10.756+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T14:04:10.758+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T14:04:10.770+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T14:04:10.772+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2025-02-12T14:04:10.776+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e053e8
+2025-02-12T14:04:10.776+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2025-02-12T14:04:10.777+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T14:04:10.778+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-16)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T14:04:10.795+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T14:04:10.795+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:04:10.806+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T14:04:10.873+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T14:04:11.076+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T14:04:11.417+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T14:04:11.433+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T14:04:11.439+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T14:04:11.465+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T14:04:11.472+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.473 seconds (process running for 149195.299)
+2025-02-12T14:04:11.474+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T14:04:12.853+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-12T14:04:12.854+03:00  INFO 17236 --- [SpringBootCoding] [Thread-63] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T14:04:12.865+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T14:04:12.866+03:00  INFO 17236 --- [SpringBootCoding] [Thread-63] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T14:04:12.866+03:00  INFO 17236 --- [SpringBootCoding] [Thread-63] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:04:12.867+03:00  INFO 17236 --- [SpringBootCoding] [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2025-02-12T14:04:12.867+03:00  INFO 17236 --- [SpringBootCoding] [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2025-02-12T14:04:12.920+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T14:04:12.920+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T14:04:13.183+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:04:13.183+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T14:04:13.185+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2025-02-12T14:04:13.188+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T14:04:13.188+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T14:04:13.189+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-02-12T14:04:13.294+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T14:04:13.295+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T14:04:13.295+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T14:04:13.311+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T14:04:13.311+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 390 ms
+2025-02-12T14:04:13.412+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T14:04:13.415+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T14:04:13.426+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T14:04:13.427+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2025-02-12T14:04:13.431+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cabddd9
+2025-02-12T14:04:13.431+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2025-02-12T14:04:13.433+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T14:04:13.433+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-17)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-12T14:04:13.457+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T14:04:13.457+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T14:04:13.472+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T14:04:13.529+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T14:04:13.665+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T14:04:13.971+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T14:04:13.984+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T14:04:13.989+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T14:04:14.014+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T14:04:14.021+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.118 seconds (process running for 149197.847)
+2025-02-12T14:04:14.022+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-12T15:57:57.145+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.1 with PID 11028 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T15:57:57.148+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T15:57:57.243+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-12T15:57:57.243+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-12T15:57:58.888+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T15:57:58.890+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T15:57:58.918+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2025-02-12T15:57:58.935+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T15:57:58.936+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T15:57:58.947+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-02-12T15:58:00.310+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T15:58:00.334+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T15:58:00.335+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T15:58:00.414+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T15:58:00.415+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3171 ms
+2025-02-12T15:58:00.932+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T15:58:01.002+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12T15:58:01.051+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T15:58:01.408+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T15:58:01.443+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-12T15:58:01.644+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51036d44
+2025-02-12T15:58:01.647+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-12T15:58:01.702+03:00  WARN 11028 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T15:58:01.726+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
@@ -29,434 +309,328 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-10T20:37:49.668+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T20:37:49.673+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T20:37:49.734+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T20:37:49.898+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T20:37:50.276+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T20:37:50.966+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T20:37:50.993+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T20:37:51.001+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T20:37:51.082+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T20:37:51.094+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 6.124 seconds (process running for 8.502)
-2025-02-10T20:40:38.116+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-10T20:40:38.116+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-10T20:40:38.122+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-02-10T20:42:04.862+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-10T20:42:04.879+03:00  INFO 17236 --- [SpringBootCoding] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T20:42:04.897+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T20:42:04.913+03:00  INFO 17236 --- [SpringBootCoding] [Thread-5] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T20:42:04.914+03:00  INFO 17236 --- [SpringBootCoding] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T20:42:04.925+03:00  INFO 17236 --- [SpringBootCoding] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-10T20:42:04.944+03:00  INFO 17236 --- [SpringBootCoding] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-10T20:42:05.121+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T20:42:05.121+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T20:42:05.690+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T20:42:05.690+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T20:42:05.693+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T20:42:05.698+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T20:42:05.698+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T20:42:05.700+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T20:42:05.832+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T20:42:05.832+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T20:42:05.833+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T20:42:05.848+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T20:42:05.849+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 725 ms
-2025-02-10T20:42:05.969+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T20:42:05.975+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T20:42:06.003+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T20:42:06.008+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-02-10T20:42:06.019+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51b7bc4b
-2025-02-10T20:42:06.019+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-02-10T20:42:06.021+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T20:42:06.022+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+2025-02-12T15:58:02.088+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T15:58:02.094+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T15:58:02.190+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T15:58:02.472+03:00  WARN 11028 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T15:58:03.069+03:00  WARN 11028 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T15:58:04.029+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T15:58:04.085+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T15:58:04.105+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T15:58:04.281+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T15:58:04.322+03:00  INFO 11028 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 7.87 seconds (process running for 9.549)
+2025-02-12T16:13:04.465+03:00  INFO 11028 --- [SpringBootCoding] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T16:13:04.484+03:00  INFO 11028 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T16:13:04.490+03:00  INFO 11028 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T16:13:04.491+03:00  INFO 11028 --- [SpringBootCoding] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:13:04.497+03:00  INFO 11028 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-12T16:13:04.505+03:00  INFO 11028 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-12T16:13:10.313+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.1 with PID 13648 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T16:13:10.322+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T16:13:10.480+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-12T16:13:10.480+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-12T16:13:12.782+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:13:12.784+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T16:13:12.814+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2025-02-12T16:13:12.830+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:13:12.831+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T16:13:12.839+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-12T16:13:14.183+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T16:13:14.218+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T16:13:14.219+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T16:13:14.329+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T16:13:14.330+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3848 ms
+2025-02-12T16:13:15.017+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T16:13:15.102+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12T16:13:15.148+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T16:13:15.638+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T16:13:15.675+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-12T16:13:15.893+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2265daa2
+2025-02-12T16:13:15.896+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-12T16:13:15.964+03:00  WARN 13648 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T16:13:15.988+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-10T20:42:06.047+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T20:42:06.048+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T20:42:06.065+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T20:42:06.145+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T20:42:06.332+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T20:42:06.716+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T20:42:06.732+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T20:42:06.738+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T20:42:06.767+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T20:42:06.776+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.749 seconds (process running for 264.185)
-2025-02-10T20:42:06.779+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:07:55.636+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-10T21:07:55.700+03:00  INFO 17236 --- [SpringBootCoding] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:07:55.730+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:07:55.770+03:00  INFO 17236 --- [SpringBootCoding] [Thread-7] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:07:55.779+03:00  INFO 17236 --- [SpringBootCoding] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:07:55.840+03:00  INFO 17236 --- [SpringBootCoding] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2025-02-10T21:07:55.879+03:00  INFO 17236 --- [SpringBootCoding] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-02-10T21:07:56.152+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:07:56.152+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:07:56.648+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:07:56.649+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:07:56.652+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:07:56.656+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:07:56.656+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:07:56.659+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:07:56.854+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:07:56.858+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:07:56.858+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:07:56.896+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:07:56.896+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
-2025-02-10T21:07:57.065+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:07:57.070+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:07:57.088+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:07:57.090+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2025-02-10T21:07:57.102+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5adab3b
-2025-02-10T21:07:57.102+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2025-02-10T21:07:57.104+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:07:57.104+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+2025-02-12T16:13:16.354+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T16:13:16.359+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:13:16.444+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T16:13:16.761+03:00  WARN 13648 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T16:13:17.354+03:00  WARN 13648 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T16:13:18.335+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T16:13:18.386+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T16:13:18.403+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T16:13:18.534+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T16:13:18.563+03:00  INFO 13648 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 9.212 seconds (process running for 10.45)
+2025-02-12T16:13:28.037+03:00  INFO 13648 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12T16:13:28.037+03:00  INFO 13648 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-12T16:13:28.039+03:00  INFO 13648 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-12T16:15:00.516+03:00  INFO 13648 --- [SpringBootCoding] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T16:15:00.531+03:00  INFO 13648 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T16:15:00.537+03:00  INFO 13648 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T16:15:00.538+03:00  INFO 13648 --- [SpringBootCoding] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:15:00.542+03:00  INFO 13648 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-12T16:15:00.549+03:00  INFO 13648 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-12T16:15:04.826+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.1 with PID 14264 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T16:15:04.829+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T16:15:04.904+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-12T16:15:04.904+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-12T16:15:06.488+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:15:06.489+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T16:15:06.510+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2025-02-12T16:15:06.523+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:15:06.524+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T16:15:06.533+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-12T16:15:07.684+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T16:15:07.711+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T16:15:07.712+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T16:15:07.796+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T16:15:07.797+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2892 ms
+2025-02-12T16:15:08.317+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T16:15:08.388+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12T16:15:08.435+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T16:15:08.843+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T16:15:08.886+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-12T16:15:09.103+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@660eb301
+2025-02-12T16:15:09.106+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-12T16:15:09.160+03:00  WARN 14264 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T16:15:09.187+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-10T21:07:57.121+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:07:57.122+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:07:57.131+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:07:57.197+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:07:57.430+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:07:57.769+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:07:57.785+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:07:57.791+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:07:57.822+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:07:57.828+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.704 seconds (process running for 1815.237)
-2025-02-10T21:07:57.829+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:08:28.874+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
-2025-02-10T21:08:28.875+03:00  INFO 17236 --- [SpringBootCoding] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:08:28.886+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:08:28.887+03:00  INFO 17236 --- [SpringBootCoding] [Thread-11] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:08:28.888+03:00  INFO 17236 --- [SpringBootCoding] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:08:28.888+03:00  INFO 17236 --- [SpringBootCoding] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2025-02-10T21:08:28.889+03:00  INFO 17236 --- [SpringBootCoding] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
-2025-02-10T21:08:28.962+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:08:28.963+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:08:29.274+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:08:29.274+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:08:29.276+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:08:29.280+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:08:29.280+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:08:29.283+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:08:29.410+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:08:29.410+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:08:29.410+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:08:29.426+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:08:29.426+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 462 ms
-2025-02-10T21:08:29.553+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:08:29.556+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:08:29.564+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:08:29.565+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2025-02-10T21:08:29.569+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d2b474d
-2025-02-10T21:08:29.570+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2025-02-10T21:08:29.571+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:08:29.572+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+2025-02-12T16:15:09.540+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T16:15:09.545+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:15:09.635+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T16:15:09.924+03:00  WARN 14264 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T16:15:10.463+03:00  WARN 14264 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-12T16:15:11.362+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T16:15:11.412+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T16:15:11.428+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T16:15:11.546+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T16:15:11.568+03:00  INFO 14264 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 7.418 seconds (process running for 8.126)
+2025-02-12T16:15:20.578+03:00  INFO 14264 --- [SpringBootCoding] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12T16:15:20.579+03:00  INFO 14264 --- [SpringBootCoding] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-12T16:15:20.583+03:00  INFO 14264 --- [SpringBootCoding] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-12T16:15:20.865+03:00 ERROR 14264 --- [SpringBootCoding] [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "Mwerha": Error resolving template [Mwerha], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Mwerha], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-02-12T16:15:20.876+03:00 ERROR 14264 --- [SpringBootCoding] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Mwerha], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Mwerha], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1435) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1105) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-02-12T16:17:32.520+03:00  INFO 14264 --- [SpringBootCoding] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T16:17:32.543+03:00  INFO 14264 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T16:17:32.559+03:00  INFO 14264 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T16:17:32.561+03:00  INFO 14264 --- [SpringBootCoding] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:17:32.575+03:00  INFO 14264 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-12T16:17:32.593+03:00  INFO 14264 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-12T16:17:37.003+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.1 with PID 1492 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T16:17:37.006+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T16:17:37.090+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-12T16:17:37.090+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-12T16:17:38.662+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:17:38.663+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T16:17:38.682+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2025-02-12T16:17:38.696+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:17:38.697+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T16:17:38.705+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-02-12T16:17:39.943+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T16:17:39.961+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T16:17:39.962+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T16:17:40.031+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T16:17:40.031+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2940 ms
+2025-02-12T16:17:40.505+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T16:17:40.576+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12T16:17:40.614+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T16:17:41.013+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T16:17:41.057+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-12T16:17:41.253+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3946d38f
+2025-02-12T16:17:41.256+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-12T16:17:41.303+03:00  WARN 1492 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T16:17:41.326+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-10T21:08:29.589+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:08:29.589+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:08:29.600+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:08:29.661+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:08:29.815+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:08:30.183+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:08:30.196+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:08:30.200+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:08:30.225+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:08:30.232+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.293 seconds (process running for 1847.64)
-2025-02-10T21:08:30.233+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:08:52.078+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-10T21:08:52.080+03:00  INFO 17236 --- [SpringBootCoding] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:08:52.090+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:08:52.092+03:00  INFO 17236 --- [SpringBootCoding] [Thread-15] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:08:52.092+03:00  INFO 17236 --- [SpringBootCoding] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:08:52.093+03:00  INFO 17236 --- [SpringBootCoding] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2025-02-10T21:08:52.094+03:00  INFO 17236 --- [SpringBootCoding] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
-2025-02-10T21:08:52.153+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:08:52.153+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:08:52.379+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:08:52.379+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:08:52.381+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:08:52.383+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:08:52.384+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:08:52.385+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:08:52.496+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:08:52.497+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:08:52.497+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:08:52.512+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:08:52.512+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 358 ms
-2025-02-10T21:08:52.592+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:08:52.594+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:08:52.600+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:08:52.600+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2025-02-10T21:08:52.603+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ea4b83a
-2025-02-10T21:08:52.604+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2025-02-10T21:08:52.605+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:08:52.605+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+2025-02-12T16:17:41.689+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T16:17:41.693+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:17:41.787+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T16:17:42.069+03:00  WARN 1492 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T16:17:43.498+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T16:17:43.554+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T16:17:43.572+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T16:17:43.693+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T16:17:43.723+03:00  INFO 1492 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 7.371 seconds (process running for 8.188)
+2025-02-12T16:19:32.002+03:00  INFO 1492 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12T16:19:32.002+03:00  INFO 1492 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-12T16:19:32.004+03:00  INFO 1492 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-12T16:35:46.549+03:00  INFO 1492 --- [SpringBootCoding] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-12T16:35:46.564+03:00  INFO 1492 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-12T16:35:46.571+03:00  INFO 1492 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-12T16:35:46.572+03:00  INFO 1492 --- [SpringBootCoding] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:35:46.581+03:00  INFO 1492 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-12T16:35:46.592+03:00  INFO 1492 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-12T16:35:49.509+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.1 with PID 11788 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
+2025-02-12T16:35:49.512+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T16:35:49.607+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-12T16:35:49.607+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-12T16:35:51.242+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:35:51.243+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-02-12T16:35:51.266+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2025-02-12T16:35:51.280+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-12T16:35:51.281+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12T16:35:51.290+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-02-12T16:35:52.524+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-12T16:35:52.550+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-12T16:35:52.550+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-12T16:35:52.630+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-12T16:35:52.630+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3022 ms
+2025-02-12T16:35:53.125+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12T16:35:53.224+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-12T16:35:53.276+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-12T16:35:53.653+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12T16:35:53.701+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-12T16:35:53.916+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18a27800
+2025-02-12T16:35:53.918+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-12T16:35:53.976+03:00  WARN 11788 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12T16:35:54.007+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-10T21:08:52.621+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:08:52.621+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:08:52.631+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:08:52.680+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:08:52.794+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:08:53.067+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:08:53.080+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:08:53.084+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:08:53.107+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:08:53.113+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 0.981 seconds (process running for 1870.522)
-2025-02-10T21:08:53.115+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:09:18.070+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 7 deletions, 0 modifications)
-2025-02-10T21:09:18.071+03:00  INFO 17236 --- [SpringBootCoding] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:09:18.084+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:09:18.086+03:00  INFO 17236 --- [SpringBootCoding] [Thread-19] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:09:18.086+03:00  INFO 17236 --- [SpringBootCoding] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:18.087+03:00  INFO 17236 --- [SpringBootCoding] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2025-02-10T21:09:18.089+03:00  INFO 17236 --- [SpringBootCoding] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
-2025-02-10T21:09:18.222+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:09:18.222+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:09:18.641+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:18.642+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:09:18.643+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:09:18.650+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:18.650+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:09:18.653+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:09:18.822+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:09:18.823+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:09:18.823+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:09:18.839+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:09:18.839+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
-2025-02-10T21:09:19.011+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:09:19.013+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:09:19.020+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:09:19.021+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2025-02-10T21:09:19.026+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fbe7319
-2025-02-10T21:09:19.026+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2025-02-10T21:09:19.027+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:09:19.027+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-10T21:09:19.043+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:09:19.043+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:19.119+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:09:19.361+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:09:19.870+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:09:19.893+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:09:19.898+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:09:19.930+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:09:19.936+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.795 seconds (process running for 1897.345)
-2025-02-10T21:09:19.938+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:09:21.304+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
-2025-02-10T21:09:21.305+03:00  INFO 17236 --- [SpringBootCoding] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:09:21.316+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:09:21.318+03:00  INFO 17236 --- [SpringBootCoding] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:21.319+03:00  INFO 17236 --- [SpringBootCoding] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2025-02-10T21:09:21.320+03:00  INFO 17236 --- [SpringBootCoding] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
-2025-02-10T21:09:21.393+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:09:21.394+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:09:21.753+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:21.753+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:09:21.757+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:09:21.762+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:21.763+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:09:21.765+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:09:21.957+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:09:21.958+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:09:21.958+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:09:21.984+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:09:21.985+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
-2025-02-10T21:09:22.166+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:09:22.169+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:09:22.178+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:09:22.180+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2025-02-10T21:09:22.186+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c91897d
-2025-02-10T21:09:22.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2025-02-10T21:09:22.189+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:09:22.189+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-10T21:09:22.218+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:09:22.218+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:22.239+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:09:22.344+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:09:22.589+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:09:23.016+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:09:23.031+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:09:23.037+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:09:23.066+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:09:23.073+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.707 seconds (process running for 1900.481)
-2025-02-10T21:09:23.074+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:09:34.732+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-10T21:09:34.733+03:00  INFO 17236 --- [SpringBootCoding] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:09:34.744+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:09:34.746+03:00  INFO 17236 --- [SpringBootCoding] [Thread-27] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:09:34.746+03:00  INFO 17236 --- [SpringBootCoding] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:34.747+03:00  INFO 17236 --- [SpringBootCoding] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2025-02-10T21:09:34.748+03:00  INFO 17236 --- [SpringBootCoding] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
-2025-02-10T21:09:34.822+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:09:34.823+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:09:35.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:35.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:09:35.189+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:09:35.194+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:35.194+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:09:35.196+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:09:35.346+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:09:35.348+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:09:35.349+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:09:35.423+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:09:35.423+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 598 ms
-2025-02-10T21:09:35.658+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:09:35.660+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:09:35.666+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:09:35.666+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2025-02-10T21:09:35.670+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e1b8389
-2025-02-10T21:09:35.670+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2025-02-10T21:09:35.671+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:09:35.671+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-10T21:09:35.683+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:09:35.684+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:35.693+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:09:35.743+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:09:35.868+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:09:36.148+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:09:36.160+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:09:36.164+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:09:36.187+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:09:36.193+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.393 seconds (process running for 1913.601)
-2025-02-10T21:09:36.194+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:09:47.799+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-10T21:09:47.805+03:00  INFO 17236 --- [SpringBootCoding] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:09:47.822+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:09:47.824+03:00  INFO 17236 --- [SpringBootCoding] [Thread-31] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:09:47.825+03:00  INFO 17236 --- [SpringBootCoding] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:47.826+03:00  INFO 17236 --- [SpringBootCoding] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2025-02-10T21:09:47.833+03:00  INFO 17236 --- [SpringBootCoding] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
-2025-02-10T21:09:48.062+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:09:48.063+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:09:49.079+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:49.080+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:09:49.084+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:09:49.088+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:09:49.088+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:09:49.094+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:09:49.407+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:09:49.407+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:09:49.407+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:09:49.436+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:09:49.436+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1369 ms
-2025-02-10T21:09:49.615+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:09:49.621+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:09:49.630+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:09:49.631+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
-2025-02-10T21:09:49.645+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3672168b
-2025-02-10T21:09:49.646+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
-2025-02-10T21:09:49.647+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:09:49.647+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-10T21:09:49.672+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:09:49.673+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:09:49.695+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:09:49.796+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:09:50.139+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:09:50.917+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:09:50.954+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:09:50.965+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:09:51.036+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:09:51.052+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 3.101 seconds (process running for 1928.461)
-2025-02-10T21:09:51.055+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:30:07.703+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-10T21:30:07.704+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-10T21:30:07.709+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-02-10T21:32:04.915+03:00  INFO 17236 --- [SpringBootCoding] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 8 class path changes (4 additions, 4 deletions, 0 modifications)
-2025-02-10T21:32:04.919+03:00  INFO 17236 --- [SpringBootCoding] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-10T21:32:04.937+03:00  INFO 17236 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-10T21:32:04.943+03:00  INFO 17236 --- [SpringBootCoding] [Thread-35] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
-2025-02-10T21:32:04.944+03:00  INFO 17236 --- [SpringBootCoding] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:32:04.946+03:00  INFO 17236 --- [SpringBootCoding] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
-2025-02-10T21:32:04.950+03:00  INFO 17236 --- [SpringBootCoding] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
-2025-02-10T21:32:05.054+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Starting SpringBootCodingApplication using Java 23.0.2 with PID 17236 (C:\Users\musta\IdeaProjects\spring\SpringBootCoding\target\classes started by musta in C:\Users\musta\IdeaProjects\spring\SpringBootCoding)
-2025-02-10T21:32:05.055+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-02-10T21:32:05.411+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:32:05.411+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-02-10T21:32:05.413+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2025-02-10T21:32:05.416+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-02-10T21:32:05.416+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-10T21:32:05.418+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2025-02-10T21:32:05.544+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-10T21:32:05.545+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-10T21:32:05.546+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-10T21:32:05.568+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-10T21:32:05.568+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 511 ms
-2025-02-10T21:32:05.675+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-10T21:32:05.677+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-10T21:32:05.685+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-10T21:32:05.686+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
-2025-02-10T21:32:05.697+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@573d773c
-2025-02-10T21:32:05.698+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
-2025-02-10T21:32:05.699+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-10T21:32:05.699+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-10T21:32:05.713+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-10T21:32:05.714+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-10T21:32:05.725+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
-2025-02-10T21:32:05.785+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-10T21:32:05.935+03:00  WARN 17236 --- [SpringBootCoding] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-02-10T21:32:06.265+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
-2025-02-10T21:32:06.279+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-10T21:32:06.285+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-02-10T21:32:06.312+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-10T21:32:06.319+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 1.294 seconds (process running for 3263.727)
-2025-02-10T21:32:06.321+03:00  INFO 17236 --- [SpringBootCoding] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-10T21:32:42.689+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-10T21:32:42.689+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-10T21:32:42.694+03:00  INFO 17236 --- [SpringBootCoding] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-02-12T16:35:54.446+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12T16:35:54.451+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12T16:35:54.557+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] com.mustafayapar.dto.BeanDto             : BeanDto initialBeanMethod bean başlamadan önce çalışır.
+2025-02-12T16:35:54.812+03:00  WARN 11788 --- [SpringBootCoding] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12T16:35:54.893+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-02-12T16:35:56.204+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/denemedb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false'
+2025-02-12T16:35:56.261+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-12T16:35:56.288+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-12T16:35:56.451+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-12T16:35:56.474+03:00  INFO 11788 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 7.852 seconds (process running for 8.617)
+2025-02-12T17:12:04.290+03:00  WARN 11788 --- [SpringBootCoding] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m39s802ms354µs200ns).
