@@ -31,5 +31,13 @@ public class TymeleafController {
         return "tyhmwleaf_file/tymeleaf1";
     }
 
+    //http://localhost:8080/tymeleaf4
+    @GetMapping("/tymeleaf4")
+    public String getThymeleaf4Model(Model model) {
+
+        model.addAttribute("key_model" , "ben modelden geldim 4");
+        return "tymeleaf4";
+    }
+
 
 }
