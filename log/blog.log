@@ -310,3 +310,9 @@ Unconditional classes:
 2025-02-13T00:38:25.081+03:00  INFO 2268 --- [SpringBootCoding] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
 2025-02-13T00:38:25.200+03:00  INFO 2268 --- [SpringBootCoding] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-02-13T00:38:25.223+03:00  INFO 2268 --- [SpringBootCoding] [restartedMain] c.m.SpringBootCodingApplication          : Started SpringBootCodingApplication in 6.433 seconds (process running for 7.338)
+2025-02-13T00:38:53.844+03:00  INFO 2268 --- [SpringBootCoding] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-13T00:38:53.860+03:00  INFO 2268 --- [SpringBootCoding] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-13T00:38:53.867+03:00  INFO 2268 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.mustafayapar.dto.BeanDto             : Bean bittikten sonra destroybean vardır. 
+2025-02-13T00:38:53.867+03:00  INFO 2268 --- [SpringBootCoding] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-13T00:38:53.867+03:00  INFO 2268 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-13T00:38:53.867+03:00  INFO 2268 --- [SpringBootCoding] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
