@@ -4,6 +4,7 @@ import com.mustafayapar.dto.ProductDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,6 +75,18 @@ public class TymeleafController {
 
         model.addAttribute("product_liste", list);
         return "thymeleaf6";
+    }
+
+    //http://localhost:8080/thymeleaf8?id=4
+    @GetMapping("/thymeleaf8")
+    public String getThymeleaf8RequestParam(Model model, @RequestParam(name = "id", required = false) Long id) {
+        if(id!=null){
+            model.addAttribute("key_model", "id" + id);
+        }
+        else {
+            model.addAttribute("key_model", "id bulunamadı");
+        }
+        return "thymeleaf8";
     }
 
 }
